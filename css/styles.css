@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    text-align: center;
+    font-family: "Plus Jarkarta Sans";
+	font-family: "Anton";
+    font-weight: bold;
+}
+.navbar{
+	background-color: crimson;
+
+}
+.navbar-nav{
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 0px solid #fff;
+	border-radius: 0;
+    color: #100D22;
+    font-weight: bolder;
+	margin: 0 0 3.5rem 0;
+	margin: 0 508px;
+}
+.navbar .navbar-brand {
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px;
+	padding-left: 16px;
+	margin: 0  5.5rem  0;
+	margin-left: 1.5rem;
+	font-size: 17px;
+    color: #100D22;
+	font-family: "Plus Jarkarta Sans";
+}
+#title{
+	justify-content: center;
+  
+}
+
+#title a{
+	color: #100D22;
+	letter-spacing: 0.48px;
+	line-height: 27px;
+}
+#title a:hover{
+	color: whitesmoke;
+}
+.navbar-nav .nav-item {
+	color: #100D22;
+}
+.nav-li{
+	font-size: 20px;
+	margin-top: 10px;
+	padding-left: 15px;
+	color: #100D22;
+}
+
+h3{
+    font-size: small;
+}
+h6{
+    color: #100D22;
+}
+h3{
+	text-align: center;
+}
+
+.navbar a {
+    color: #100D22;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 17px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    letter-spacing: 0.48px;
+}
+/* hero section */
+
+#hero{
+    padding-left: 60px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+.top-container{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px;
+}
+.middle-container{
+    background-color: gray;
+    border: 1px solid black;
+    margin: 10px;
+}
+.bottom-container{
+    background-color: grey;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+.to-container{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px;
+}
+.mid-container{
+    background-color: gray;
+    border: 1px solid black;
+    margin: 10px;
+}
+.bot-container{
+    background-color: grey;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+p{
+    margin-top: 30px;
+}
+@media (min-width:992px) {
+    .bot-container{
+        display: none !important;
+    }
+    .to-container{
+        display: none !important;
+    }
+    .mid-container{
+        display: none !important;
+    }
+}
+
+/* Tablet styles goes hers */
+@media(min-width:767px) and (max-width:991px){
+    #hero{
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bottom-container{
+       display: none !important;
+    }
+    .top-container{
+        display: none !important;
+    }
+    .middle-container{
+        display: none !important;
+    }
+    p{
+        font-size: 20px;
+    }
+    .to-container {
+        height: 500px;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 10px;
+        position: relative;
+        display: inline-block;
+        margin-bottom:  15px;
+        margin-top: 40px;
+    }
+    .mid-container{
+        height: 500px;
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+        margin-bottom:  15px;
+        margin-top: 40px;
+    }
+    .bot-container{
+        width: 100px;
+        height: 240px;
+        padding: 10px;
+        margin: 20px;
+        margin-left: 5px;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+    }
+}
+
+
+
+/* Mobiles styles goes here */
+@media(max-width:767px){
+    .navbar-nav{
+        text-align: center;
+        border-radius: 0;
+        justify-content: center;
+        padding: 5px;
+		padding-left: 10px;
+		width: 100%;
+		margin: 0px;
+	}
+	#title .navbar-nav{
+		color: #100D22;
+		letter-spacing: 0.48px;
+		line-height: 27px;
+	}
+	#title a:hover{
+		color: whitesmoke;
+	}
+    #hero{
+        align-items: center;
+        padding-left: 10px;
+        justify-content: center;
+        margin-right: 10px;
+        margin-top: 5px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .top-container{
+        margin: 9px;
+        padding-right: 40px;
+        position: static;
+    }
+    .middle-container{
+        margin: 9px;
+        padding-right: 40px;
+        border: 1px solid black;
+        position: static;
+    }
+    .bottom-container{
+        margin: 9px;
+        border: 1px solid black;
+        position: static;
+        padding-right: 40px;
+    
+    }
+    .to-container{
+        display: none !important;
+    }
+    .mid-container{
+        display: none !important;
+    }
+    .bot-container{
+        display: none !important;
+    }
+
+}
